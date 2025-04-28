@@ -4,6 +4,7 @@ using namespace std;
 class planet{
     private :
         float gravitasi;
+// batas private
     public :
         string nama;
         float diameter;
@@ -20,7 +21,7 @@ class planet{
             cout << "gravitasiku : ";
             cin >> gravitasi;
         }
-};
+}; // batas public
 
 int main()
 {
