@@ -28,4 +28,6 @@ int main()
    venus.inputdata();
    cout << "namanya adalah " << venus.nama <<  endl;
    cout << "diameternya adalah " << venus.diameter << endl;
+
+   venus.displaydata();
 }
